@@ -1,0 +1,47 @@
+.educationContainer {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 120vh;
+    height: 40vh;
+}
+
+.description {
+    margin-top: 5%;
+    width: 50vh;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.degree {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.gpa {
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+.minors {
+    font-size: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+}
+
+.information {
+    margin-top: 5%;
+    margin-left: 6vh;
+    width: 20vh;
+    text-align: right;
+}

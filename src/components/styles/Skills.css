@@ -1,0 +1,17 @@
+/* style={{width: '20vh', fontSize: 20}} */
+
+.skillContainer {
+    display: flex;
+    flex-direction: row;
+    width: 50vh;
+    margin-bottom: 1vh;
+}
+
+.skillName {
+    width: 20vh;
+    font-size: 20px;
+}
+
+.skillLever {
+    display: flex;
+}

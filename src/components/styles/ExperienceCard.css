@@ -1,0 +1,39 @@
+.experienceContainer {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 150vh;
+    height: 38vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+}
+
+.descriptionExperience {
+    margin-top: 5%;
+    width: 80vh;
+}
+
+.company {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+}
+
+.position  {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.duration {
+    margin-top: 5%;
+    margin-left: 6vh;
+    width: 20vh;
+    text-align: right;
+}

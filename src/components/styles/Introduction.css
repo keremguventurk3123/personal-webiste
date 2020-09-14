@@ -1,0 +1,26 @@
+.introductionContainer {
+    display: flex
+}
+
+.background {
+    background-color: #0a0c0c;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.introductionTitle {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.introductionDescription {
+    font-size: 20px;
+    margin-top: 10%;
+}
