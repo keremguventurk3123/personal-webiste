@@ -42,7 +42,7 @@ const ProfessionalExperience = () => {
     ];
 
     const renderExperiences = (experiences) => {
-        return experiences.map((experience) => <ExperienceCard experience={experience} />)
+        return experiences.map((experience) => <ExperienceCard experience={experience} key={experience.title}/>)
     }
 
     return (

@@ -32,19 +32,19 @@ const Education = () => {
 
     const renderSchools = (schools) => {
         return schools.map((school) => {
-            return <EducationCard school={school} />
+            return <EducationCard school={school} key={school.name} />
         });
     }
 
     return (
-        <div class="container">
-            <div class="title">
+        <div className="container">
+            <div className="title">
                 Education
             </div>
-            <div class="quote">
+            <div className="quote">
                 “Educating the mind without educating the heart is no education at all.” ― Aristotle
             </div>
-            <div class="schools">
+            <div className="schools">
                 {renderSchools(schools)}
             </div>
         </div>

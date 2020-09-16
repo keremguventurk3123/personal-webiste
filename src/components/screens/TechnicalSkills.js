@@ -25,7 +25,7 @@ const TechnicalSkills = () => {
     const renderSkills = (skills) => {
         return skills.map(({ name, level }) => {
             return (
-                <Skill name={name} level={level} />
+                <Skill name={name} level={level} key={name} />
             )
         })
     }
@@ -41,14 +41,14 @@ const TechnicalSkills = () => {
     const rightContainerSkills = skillsSorted.slice(Math.floor(skillsSorted.length / 2));
 
     return (
-        <div class="container">
-            <div class="title"> 
+        <div className="container">
+            <div className="title"> 
                 Technical Skills 
             </div>
-            <div class="quote"> 
-            “You don’t learn to walk by following rules. You learn by doing, and by falling over.” –Richard Branson 
+            <div className="quote"> 
+            “You don’t learn to walk by following rules. You learn by doing, and by falling over.” ― Richard Branson 
             </div>
-            <div class="skills">
+            <div className="skills">
                 <div>
                     {renderSkills(leftContainerSkills)}
                 </div>

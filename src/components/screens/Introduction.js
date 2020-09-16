@@ -17,7 +17,7 @@ const Introduction = () => {
                     </div>
                 </div>
             </div>
-            <img src={Graduation} style={{ height: "100vh" }} />
+            <img src={Graduation} style={{ height: "100vh" }} alt="schoolLogo"/>
         </div>
     )
 }

@@ -22,14 +22,14 @@ const EducationCard = ({ school }) => {
 
     const renderGPA = (gpa) => {
         if (gpa) {
-            return <div class="gpa"> GPA: {gpa} </div>
+            return <div className="gpa"> GPA: {gpa} </div>
         }
     }
 
     const renderMinors = (minors) => {
         if (minors) {
             return (
-                <div class="minors"> 
+                <div className="minors"> 
                     Minors: {minors}
                 </div>
             )
@@ -39,8 +39,8 @@ const EducationCard = ({ school }) => {
     const renderRelevantCourses = (relevantCourses) => {
         const renderedCourses = relevantCourses.map(({name,link}) => {
             return (
-                <div class="course"> 
-                    <a href={link} target="_blank">
+                <div className="course" key={name}> 
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                     -     {name} 
                     </a>
                 </div>
@@ -55,20 +55,20 @@ const EducationCard = ({ school }) => {
     }
 
     return (
-        <div class="educationContainer">
-            <div class="logo">
-                <img src={logo} style={{ width: size }} />
+        <div className="educationContainer">
+            <div className="logo">
+                <img src={logo} style={{ width: size }} alt="educationLogo" />
             </div>
-            <div class="description">
-                <div class="name"> {name} </div>
-                <div class="degree"> 
+            <div className="description">
+                <div className="name"> {name} </div>
+                <div className="degree"> 
                     {degree} 
                     {renderGPA(gpa)}
                 </div>
                 {renderMinors(minors)}
                 {renderRelevantCourses(relevantCourses)}
             </div>
-            <div class="information">
+            <div className="information">
                 {location}
                 <br />
                 {tenure}

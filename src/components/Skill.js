@@ -14,11 +14,14 @@ const Skill = (props) => {
 
     const renderIcons = (level) => {
         const icons = []
+        let key = 0
         for (var i = 0; i < level; i++) {
-            icons.push(<i class={`thumbs up icon ${levelToColor[level]}`}/>)
+            icons.push(<i className={`thumbs up icon ${levelToColor[level]}`} key={key}/>)
+            key++;
         }
-        for (var i = 0; i < 5 - level; i++) {
-            icons.push(<i class={`thumbs up icon grey`}/>)
+        for (i = 0; i < 5 - level; i++) {
+            icons.push(<i className={`thumbs up icon grey`} key={key}/>)
+            key++;
         }
         return icons
     }

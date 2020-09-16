@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
     const renderContent = (content) => {
         const renderedContent = content.map((description) => {
             return (
-                <div class="content"> 
+                <div className="content" key={description}> 
                     -     {description} 
                 </div>
             )
@@ -42,11 +42,11 @@ const ExperienceCard = ({ experience }) => {
     return (
         <div className="experienceContainer">
             <div className="logo">
-                <img src={logo} style={{ width: size }} />
+                <img src={logo} style={{ width: size }} alt="experienceLogo"/>
             </div>
             <div className="descriptionExperience">
                 <div className="company">
-                    <a href={link} target="_blank">{company}</a>
+                    <a href={link} target="_blank" rel="noopener noreferrer">{company}</a>
                 </div>
                 <div className="position"> 
                     {title} 
