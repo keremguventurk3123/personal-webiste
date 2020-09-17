@@ -45,6 +45,14 @@ const Projects = () => {
             <div className="projectContent">
                 {renderProjects(projects)}
             </div>
+            <div className="linkToProject">
+                <a href="https://github.com/keremguventurk3123/personal-webiste" target="_blank" rel="noopener noreferrer">
+                    <button class="ui github button">
+                        <i class="github icon"></i>
+                    Check out source code of this website on GitHub!
+                    </button>
+                </a>
+            </div>
         </div>
     )
 }
