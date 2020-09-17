@@ -13,7 +13,7 @@ const ProfessionalExperience = () => {
                 "Led a group of software engineers in developing a mobile application (in React Native and MongoDB) for companies to scan business cards and send contact information of potential customers directly to databases."
             ],
             link: "https://www.linkedin.com/company/scannect/",
-            location: "Evasnton, IL"
+            location: "Evanston, IL"
         },
         {
             title: "Software Developer Intern",
@@ -26,7 +26,7 @@ const ProfessionalExperience = () => {
                 "Met with interns and full-time developers twice a week to configure cloud services (AWS Cognito, DynamoDB, etc.). "
             ],
             link: "https://www.sibelhealth.com/",
-            location: "Evasnton, IL"
+            location: "Evanston, IL"
         },
         {
             title: "IT Consultant",
@@ -37,7 +37,7 @@ const ProfessionalExperience = () => {
                 "Solved 1000+ problems related to IT and provided directory assistance to parents / prospective students / contractors new on campus."
             ],
             link: "https://www.it.northwestern.edu/",
-            location: "Evasnton, IL"
+            location: "Evanston, IL"
         }
     ];
 
