@@ -37,10 +37,13 @@ const Projects = () => {
     return (
         <div className="container">
             <div className="title">
-                Example Projects
+                Sample Projects
             </div>
             <div className="quote">
                 “Don’t judge each day by the harvest you reap but by the seeds that you plant.” ─ Robert Louis Stevenson
+            </div>
+            <div className="explanation">
+                Here's some mini-projects that I've built!
             </div>
             <div className="projectContent">
                 {renderProjects(projects)}

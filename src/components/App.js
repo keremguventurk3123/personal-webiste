@@ -10,10 +10,10 @@ class App extends React.Component {
         return (
             <div>
                 <Introduction />
+                <Projects />
                 <Education />
                 <TechnicalSkills />
                 <ProfessionalExperience />
-                <Projects />
             </div>
         )
     }
