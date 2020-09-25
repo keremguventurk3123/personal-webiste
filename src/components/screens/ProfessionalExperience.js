@@ -38,6 +38,17 @@ const ProfessionalExperience = () => {
             ],
             link: "https://www.it.northwestern.edu/",
             location: "Evanston, IL"
+        },
+        {
+            title: "Research Assistant",
+            company: "Simpson Querrey Institute",
+            duration: "Jun 2017 - Jun 2019",
+            content: [
+                "Wrote image recognition applications, a (Python) software for client-based computers and an iPhone app (Swift), to determine how much sweat a patch collected given an image.",
+                "Developed a computer application (in Python) to analyze and compare the RGB and LAB values of sweat in multiple devices and determine composition of certain chemicals given information about the first image."
+            ],
+            link: "https://sqi.northwestern.edu/",
+            location: "Evanston, IL",
         }
     ];
 

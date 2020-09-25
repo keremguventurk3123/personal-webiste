@@ -2,6 +2,7 @@ import React from 'react';
 import SibelHealthLogo from '../assets/sibel_health.jpg';
 import ScannectLogo from '../assets/scannect.png';
 import NorthwesternLogo from '../assets/northwestern-thumb.jpg';
+import SimpsonQuerreyLogo from '../assets/simpson_querrey.png';
 import "./styles/ExperienceCard.css";
 
 const ExperienceCard = ({ experience }) => {
@@ -19,6 +20,10 @@ const ExperienceCard = ({ experience }) => {
         "Northwestern University IT": {
             logo: NorthwesternLogo,
             size: "25vh"
+        },
+        "Simpson Querrey Institute": {
+            logo: SimpsonQuerreyLogo,
+            size: "28vh"
         }
     }
 
