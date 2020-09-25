@@ -62,7 +62,7 @@ const ProfessionalExperience = () => {
                 Professional Experience
             </div>
             <div className="quote">
-                “Don’t judge each day by the harvest you reap but by the seeds that you plant.” ― Robert Louis Stevenson
+                “I’m a great believer in luck, and I find the harder I work, the more I have of it.” ― Thomas Jefferson
             </div>
             <div>
                 {renderExperiences(experiences)}
