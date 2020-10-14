@@ -9,8 +9,9 @@ const ProfessionalExperience = () => {
             company: "Scannect",
             duration: "Jan 2020 - Present",
             content: [
-                "Led frontend and backend development of Scannect, a startup company accepted in Wildfire Pre-Accelerator program, an entrepreneurship program for Northwestern’s most promising startup companies.",
-                "Led a group of software engineers in developing a mobile application (in React Native and MongoDB) for companies to scan business cards and send contact information of potential customers directly to databases."
+                "Led frontend and backend development of Scannect, a startup company aiming to enable companies to scan business cards and transfer contact information to databases from a mobile app.",
+                "Programmed 20+ screens for application’s frontend (in React Native).",
+                "Wrote 50+ API endpoints, created 2 user profiles, and configured authentication for backend (in MongoDB)."
             ],
             link: "https://www.linkedin.com/company/scannect/",
             location: "Evanston, IL"
@@ -21,7 +22,7 @@ const ProfessionalExperience = () => {
             duration: "Jun 2019 – Aug 2019",
             content: [
                 "Worked in frontend and backend development team of Sibel Health, a startup company aiming to deliver better health data by producing wearable sensors integrated with advanced software, cloud services, and machine learning.",
-                "Collaborated with frontend developers in programming ANNE web application (in React JS) used by clinical investigators and designated users to monitor vital signals.",
+                "Collaborated with 6 frontend developers in programming a web application (in React JS), programming 5 screens and developing demo version of website.",
                 "Wrote API of the ANNE web application (in AWS API Gateway).",
                 "Met with interns and full-time developers twice a week to configure cloud services (AWS Cognito, DynamoDB, etc.). "
             ],
