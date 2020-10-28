@@ -7,7 +7,7 @@ const Education = () => {
         {
             name: "Columbia University",
             location: "New York, NY",
-            tenure: "Exp Dec 2021",
+            tenure: "Exp May 2022",
             degree: "M.S in Computer Science",
             logo: "columbia.jpeg",
             relevantCourses: [
