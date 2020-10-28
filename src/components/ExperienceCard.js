@@ -3,6 +3,7 @@ import SibelHealthLogo from '../assets/sibel_health.jpg';
 import ScannectLogo from '../assets/scannect.png';
 import NorthwesternLogo from '../assets/northwestern-thumb.jpg';
 import SimpsonQuerreyLogo from '../assets/simpson_querrey.png';
+import VybeLogo from "../assets/vybe.webp";
 import "./styles/ExperienceCard.css";
 
 const ExperienceCard = ({ experience }) => {
@@ -24,6 +25,10 @@ const ExperienceCard = ({ experience }) => {
         "Simpson Querrey Institute": {
             logo: SimpsonQuerreyLogo,
             size: "28vh"
+        },
+        "Vybe": {
+            logo: VybeLogo,
+            size: "35vh"
         }
     }
 
@@ -32,13 +37,13 @@ const ExperienceCard = ({ experience }) => {
     const renderContent = (content) => {
         const renderedContent = content.map((description) => {
             return (
-                <div className="content" key={description}> 
-                    -     {description} 
+                <div className="content" key={description}>
+                    -     {description}
                 </div>
             )
         })
         return (
-            <div> 
+            <div>
                 {renderedContent}
             </div>
         );
@@ -47,14 +52,17 @@ const ExperienceCard = ({ experience }) => {
     return (
         <div className="experienceContainer">
             <div className="logo">
-                <img src={logo} style={{ width: size }} alt="experienceLogo"/>
+                <img src={logo} style={{ width: size }} alt="experienceLogo" />
             </div>
             <div className="descriptionExperience">
                 <div className="company">
-                    <a href={link} target="_blank" rel="noopener noreferrer">{company}</a>
+                    {(link)
+                        ? <a href={link} target="_blank" rel="noopener noreferrer">{company}</a>
+                        : <div> {company} </div>
+                    }
                 </div>
-                <div className="position"> 
-                    {title} 
+                <div className="position">
+                    {title}
                 </div>
                 {renderContent(content)}
             </div>

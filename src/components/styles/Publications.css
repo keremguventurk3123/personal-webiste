@@ -1,0 +1,31 @@
+.publicationContainer {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 140vh;
+    height: 30vh;
+    margin-top: -2%;
+}
+
+.descriptionPublication{
+    margin-top: 5%;
+    width: 140vh;
+}
+
+.paper {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.duration {
+    margin-top: 5%;
+    margin-left: 6vh;
+    width: 20vh;
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}

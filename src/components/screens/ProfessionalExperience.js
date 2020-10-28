@@ -6,12 +6,23 @@ const ProfessionalExperience = () => {
     const experiences = [
         {
             title: "Lead Software Developer",
+            company: "Vybe",
+            duration: "Sep 2020 - Present",
+            content: [
+                "Currently leading frontend and backend development of Vybe, an early-stage startup that aims to revolutionize the way young professionals connect and create their own micro-communities.",
+                "Refactored 20+ screens and programmed 8 new screens for application’s frontend (in React Native).",
+                "Refactored backend of the application and wrote tests (in Django)."
+            ],
+            location: "New York, NY"
+        },
+        {
+            title: "Lead Software Developer",
             company: "Scannect",
             duration: "Jan 2020 - Present",
             content: [
-                "Led frontend and backend development of Scannect, a startup company aiming to enable companies to scan business cards and transfer contact information to databases from a mobile app.",
+                "Currently leading frontend and backend development of Scannect, a startup company aiming to enable companies to scan business cards and transfer contact information to databases from a mobile app.",
                 "Programmed 20+ screens for application’s frontend (in React Native).",
-                "Wrote 50+ API endpoints, created 2 user profiles, and configured authentication for backend (in MongoDB)."
+                "Wrote 10+ API endpoints, created a user profile, and configured authentication for backend (in Firebase)."
             ],
             link: "https://www.linkedin.com/company/scannect/",
             location: "Evanston, IL"

@@ -4,6 +4,7 @@ import TechnicalSkills from './screens/TechnicalSkills';
 import ProfessionalExperience from './screens/ProfessionalExperience';
 import Introduction from './screens/Introduction';
 import Projects from './screens/Projects';
+import Publications from './screens/Publications';
 
 class App extends React.Component {
     render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
                 <Education />
                 <TechnicalSkills />
                 <ProfessionalExperience />
+                <Publications />
             </div>
         )
     }
